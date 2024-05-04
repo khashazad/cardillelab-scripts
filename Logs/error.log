@@ -1,0 +1,12 @@
+2024-04-24 19:03:15,919 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:03:16,006 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:03:23,193 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:03:47,622 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:04:19,057 - ERROR - Couldnt read file /Volumes/Files/Landsat8 - Fishnet3/fish_ID20/landsat8.fishID20.140.60m.csv: 
+2024-04-24 19:04:19,141 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:11:17,441 - ERROR - Couldnt read file /Volumes/Files/Landsat8 - Fishnet3/fish_ID46/landsat8.fishID46.701.60m.csv: 
+2024-04-24 19:11:17,534 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:12:42,728 - ERROR - Couldnt read file /Volumes/Files/Landsat8 - Fishnet3/fish_ID49/landsat8.fishID49.1063.60m.csv: 
+2024-04-24 19:12:42,808 - ERROR - TypeError occured when inserting documents to collection.
+2024-04-24 19:14:51,973 - ERROR - Couldnt read file /Volumes/Files/Landsat8 - Fishnet3/fish_ID55/landsat8.fishID55.1147.60m.csv: 
+2024-04-24 19:14:52,062 - ERROR - TypeError occured when inserting documents to collection.

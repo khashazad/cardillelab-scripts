@@ -1,0 +1,332 @@
+2024-04-24 19:01:37,396 - INFO - Processing assest 1
+2024-04-24 19:02:10,537 - INFO - Processing assest 1
+2024-04-24 19:02:41,910 - INFO - Processing assest 1
+2024-04-24 19:02:42,646 - INFO - Start batch insert to collection: c3_l8_1
+2024-04-24 19:02:46,656 - INFO - Completed batch insert to collection:  c3_l8_1
+2024-04-24 19:02:46,674 - INFO - Processing assest 2
+2024-04-24 19:02:47,223 - INFO - Start batch insert to collection: c3_l8_2
+2024-04-24 19:02:55,872 - INFO - Completed batch insert to collection:  c3_l8_2
+2024-04-24 19:02:55,898 - INFO - Processing assest 3
+2024-04-24 19:02:56,528 - INFO - Start batch insert to collection: c3_l8_3
+2024-04-24 19:03:03,344 - INFO - Completed batch insert to collection:  c3_l8_3
+2024-04-24 19:03:03,369 - INFO - Processing assest 4
+2024-04-24 19:03:04,263 - INFO - Start batch insert to collection: c3_l8_4
+2024-04-24 19:03:15,745 - INFO - Completed batch insert to collection:  c3_l8_4
+2024-04-24 19:03:15,787 - INFO - Processing assest 5
+2024-04-24 19:03:15,918 - INFO - Start batch insert to collection: c3_l8_5
+2024-04-24 19:03:15,919 - INFO - Completed batch insert to collection:  c3_l8_5
+2024-04-24 19:03:15,919 - INFO - Processing assest 6
+2024-04-24 19:03:16,005 - INFO - Start batch insert to collection: c3_l8_6
+2024-04-24 19:03:16,006 - INFO - Completed batch insert to collection:  c3_l8_6
+2024-04-24 19:03:16,006 - INFO - Processing assest 7
+2024-04-24 19:03:16,596 - INFO - Start batch insert to collection: c3_l8_7
+2024-04-24 19:03:23,078 - INFO - Completed batch insert to collection:  c3_l8_7
+2024-04-24 19:03:23,110 - INFO - Processing assest 8
+2024-04-24 19:03:23,193 - INFO - Start batch insert to collection: c3_l8_8
+2024-04-24 19:03:23,193 - INFO - Completed batch insert to collection:  c3_l8_8
+2024-04-24 19:03:23,193 - INFO - Processing assest 9
+2024-04-24 19:03:23,615 - INFO - Start batch insert to collection: c3_l8_9
+2024-04-24 19:03:29,758 - INFO - Completed batch insert to collection:  c3_l8_9
+2024-04-24 19:03:29,782 - INFO - Processing assest 10
+2024-04-24 19:03:30,236 - INFO - Start batch insert to collection: c3_l8_10
+2024-04-24 19:03:36,109 - INFO - Completed batch insert to collection:  c3_l8_10
+2024-04-24 19:03:36,135 - INFO - Processing assest 11
+2024-04-24 19:03:36,477 - INFO - Start batch insert to collection: c3_l8_11
+2024-04-24 19:03:41,693 - INFO - Completed batch insert to collection:  c3_l8_11
+2024-04-24 19:03:41,712 - INFO - Processing assest 12
+2024-04-24 19:03:42,185 - INFO - Start batch insert to collection: c3_l8_12
+2024-04-24 19:03:47,522 - INFO - Completed batch insert to collection:  c3_l8_12
+2024-04-24 19:03:47,544 - INFO - Processing assest 13
+2024-04-24 19:03:47,622 - INFO - Start batch insert to collection: c3_l8_13
+2024-04-24 19:03:47,622 - INFO - Completed batch insert to collection:  c3_l8_13
+2024-04-24 19:03:47,622 - INFO - Processing assest 14
+2024-04-24 19:03:48,255 - INFO - Start batch insert to collection: c3_l8_14
+2024-04-24 19:03:54,939 - INFO - Completed batch insert to collection:  c3_l8_14
+2024-04-24 19:03:54,969 - INFO - Processing assest 15
+2024-04-24 19:03:55,809 - INFO - Start batch insert to collection: c3_l8_15
+2024-04-24 19:04:07,433 - INFO - Completed batch insert to collection:  c3_l8_15
+2024-04-24 19:04:07,468 - INFO - Processing assest 16
+2024-04-24 19:04:07,580 - INFO - Start batch insert to collection: c3_l8_16
+2024-04-24 19:04:08,462 - INFO - Completed batch insert to collection:  c3_l8_16
+2024-04-24 19:04:08,467 - INFO - Processing assest 17
+2024-04-24 19:04:08,683 - INFO - Start batch insert to collection: c3_l8_17
+2024-04-24 19:04:11,822 - INFO - Completed batch insert to collection:  c3_l8_17
+2024-04-24 19:04:11,828 - INFO - Processing assest 18
+2024-04-24 19:04:12,314 - INFO - Start batch insert to collection: c3_l8_18
+2024-04-24 19:04:17,734 - INFO - Completed batch insert to collection:  c3_l8_18
+2024-04-24 19:04:17,769 - INFO - Processing assest 19
+2024-04-24 19:04:17,870 - INFO - Start batch insert to collection: c3_l8_19
+2024-04-24 19:04:19,042 - INFO - Completed batch insert to collection:  c3_l8_19
+2024-04-24 19:04:19,052 - INFO - Processing assest 20
+2024-04-24 19:04:19,141 - INFO - Start batch insert to collection: c3_l8_20
+2024-04-24 19:04:19,141 - INFO - Completed batch insert to collection:  c3_l8_20
+2024-04-24 19:04:19,141 - INFO - Processing assest 21
+2024-04-24 19:04:19,252 - INFO - Start batch insert to collection: c3_l8_21
+2024-04-24 19:04:20,161 - INFO - Completed batch insert to collection:  c3_l8_21
+2024-04-24 19:04:20,166 - INFO - Processing assest 22
+2024-04-24 19:04:20,362 - INFO - Start batch insert to collection: c3_l8_22
+2024-04-24 19:04:22,258 - INFO - Completed batch insert to collection:  c3_l8_22
+2024-04-24 19:04:22,268 - INFO - Processing assest 23
+2024-04-24 19:04:22,418 - INFO - Start batch insert to collection: c3_l8_23
+2024-04-24 19:04:23,001 - INFO - Completed batch insert to collection:  c3_l8_23
+2024-04-24 19:04:23,006 - INFO - Processing assest 24
+2024-04-24 19:04:23,313 - INFO - Start batch insert to collection: c3_l8_24
+2024-04-24 19:04:27,915 - INFO - Completed batch insert to collection:  c3_l8_24
+2024-04-24 19:04:27,936 - INFO - Processing assest 25
+2024-04-24 19:04:28,227 - INFO - Start batch insert to collection: c3_l8_25
+2024-04-24 19:04:32,260 - INFO - Completed batch insert to collection:  c3_l8_25
+2024-04-24 19:04:32,283 - INFO - Processing assest 26
+2024-04-24 19:04:32,494 - INFO - Start batch insert to collection: c3_l8_26
+2024-04-24 19:04:37,015 - INFO - Completed batch insert to collection:  c3_l8_26
+2024-04-24 19:04:37,031 - INFO - Processing assest 27
+2024-04-24 19:04:37,191 - INFO - Start batch insert to collection: c3_l8_27
+2024-04-24 19:04:39,694 - INFO - Completed batch insert to collection:  c3_l8_27
+2024-04-24 19:04:39,705 - INFO - Processing assest 28
+2024-04-24 19:04:41,389 - INFO - Start batch insert to collection: c3_l8_28
+2024-04-24 19:05:01,209 - INFO - Completed batch insert to collection:  c3_l8_28
+2024-04-24 19:05:01,278 - INFO - Processing assest 29
+2024-04-24 19:05:01,557 - INFO - Start batch insert to collection: c3_l8_29
+2024-04-24 19:05:05,822 - INFO - Completed batch insert to collection:  c3_l8_29
+2024-04-24 19:05:05,845 - INFO - Processing assest 30
+2024-04-24 19:05:05,964 - INFO - Start batch insert to collection: c3_l8_30
+2024-04-24 19:05:08,561 - INFO - Completed batch insert to collection:  c3_l8_30
+2024-04-24 19:05:08,567 - INFO - Processing assest 31
+2024-04-24 19:05:09,046 - INFO - Start batch insert to collection: c3_l8_31
+2024-04-24 19:05:14,365 - INFO - Completed batch insert to collection:  c3_l8_31
+2024-04-24 19:05:14,399 - INFO - Processing assest 32
+2024-04-24 19:05:14,654 - INFO - Start batch insert to collection: c3_l8_32
+2024-04-24 19:05:17,901 - INFO - Completed batch insert to collection:  c3_l8_32
+2024-04-24 19:05:17,923 - INFO - Processing assest 33
+2024-04-24 19:05:18,935 - INFO - Start batch insert to collection: c3_l8_33
+2024-04-24 19:05:30,102 - INFO - Completed batch insert to collection:  c3_l8_33
+2024-04-24 19:05:30,146 - INFO - Processing assest 34
+2024-04-24 19:05:30,599 - INFO - Start batch insert to collection: c3_l8_34
+2024-04-24 19:05:36,433 - INFO - Completed batch insert to collection:  c3_l8_34
+2024-04-24 19:05:36,467 - INFO - Processing assest 35
+2024-04-24 19:05:41,720 - INFO - Start batch insert to collection: c3_l8_35
+2024-04-24 19:06:21,797 - INFO - Completed batch insert to collection:  c3_l8_35
+2024-04-24 19:06:21,979 - INFO - Processing assest 36
+2024-04-24 19:06:25,818 - INFO - Start batch insert to collection: c3_l8_36
+2024-04-24 19:06:58,529 - INFO - Completed batch insert to collection:  c3_l8_36
+2024-04-24 19:06:58,684 - INFO - Processing assest 37
+2024-04-24 19:06:59,153 - INFO - Start batch insert to collection: c3_l8_37
+2024-04-24 19:07:03,989 - INFO - Completed batch insert to collection:  c3_l8_37
+2024-04-24 19:07:04,026 - INFO - Processing assest 38
+2024-04-24 19:07:04,298 - INFO - Start batch insert to collection: c3_l8_38
+2024-04-24 19:07:11,661 - INFO - Completed batch insert to collection:  c3_l8_38
+2024-04-24 19:07:11,686 - INFO - Processing assest 39
+2024-04-24 19:07:12,089 - INFO - Start batch insert to collection: c3_l8_39
+2024-04-24 19:07:24,013 - INFO - Completed batch insert to collection:  c3_l8_39
+2024-04-24 19:07:24,038 - INFO - Processing assest 40
+2024-04-24 19:07:24,198 - INFO - Start batch insert to collection: c3_l8_40
+2024-04-24 19:07:28,916 - INFO - Completed batch insert to collection:  c3_l8_40
+2024-04-24 19:07:28,925 - INFO - Processing assest 41
+2024-04-24 19:07:31,502 - INFO - Start batch insert to collection: c3_l8_41
+2024-04-24 19:08:04,792 - INFO - Completed batch insert to collection:  c3_l8_41
+2024-04-24 19:08:04,888 - INFO - Processing assest 42
+2024-04-24 19:08:06,387 - INFO - Start batch insert to collection: c3_l8_42
+2024-04-24 19:08:18,626 - INFO - Completed batch insert to collection:  c3_l8_42
+2024-04-24 19:08:18,691 - INFO - Processing assest 43
+2024-04-24 19:08:24,686 - INFO - Start batch insert to collection: c3_l8_43
+2024-04-24 19:09:12,135 - INFO - Completed batch insert to collection:  c3_l8_43
+2024-04-24 19:09:12,394 - INFO - Processing assest 44
+2024-04-24 19:09:15,499 - INFO - Start batch insert to collection: c3_l8_44
+2024-04-24 19:09:45,467 - INFO - Completed batch insert to collection:  c3_l8_44
+2024-04-24 19:09:45,584 - INFO - Processing assest 45
+2024-04-24 19:09:50,875 - INFO - Start batch insert to collection: c3_l8_45
+2024-04-24 19:11:17,253 - INFO - Completed batch insert to collection:  c3_l8_45
+2024-04-24 19:11:17,441 - INFO - Processing assest 46
+2024-04-24 19:11:17,534 - INFO - Start batch insert to collection: c3_l8_46
+2024-04-24 19:11:17,534 - INFO - Completed batch insert to collection:  c3_l8_46
+2024-04-24 19:11:17,534 - INFO - Processing assest 47
+2024-04-24 19:11:22,497 - INFO - Start batch insert to collection: c3_l8_47
+2024-04-24 19:11:55,553 - INFO - Completed batch insert to collection:  c3_l8_47
+2024-04-24 19:11:55,747 - INFO - Processing assest 48
+2024-04-24 19:12:00,650 - INFO - Start batch insert to collection: c3_l8_48
+2024-04-24 19:12:42,549 - INFO - Completed batch insert to collection:  c3_l8_48
+2024-04-24 19:12:42,727 - INFO - Processing assest 49
+2024-04-24 19:12:42,808 - INFO - Start batch insert to collection: c3_l8_49
+2024-04-24 19:12:42,808 - INFO - Completed batch insert to collection:  c3_l8_49
+2024-04-24 19:12:42,808 - INFO - Processing assest 50
+2024-04-24 19:12:43,753 - INFO - Start batch insert to collection: c3_l8_50
+2024-04-24 19:13:10,151 - INFO - Completed batch insert to collection:  c3_l8_50
+2024-04-24 19:13:10,195 - INFO - Processing assest 51
+2024-04-24 19:13:11,852 - INFO - Start batch insert to collection: c3_l8_51
+2024-04-24 19:13:29,541 - INFO - Completed batch insert to collection:  c3_l8_51
+2024-04-24 19:13:29,606 - INFO - Processing assest 52
+2024-04-24 19:13:33,400 - INFO - Start batch insert to collection: c3_l8_52
+2024-04-24 19:14:08,365 - INFO - Completed batch insert to collection:  c3_l8_52
+2024-04-24 19:14:08,499 - INFO - Processing assest 53
+2024-04-24 19:14:09,358 - INFO - Start batch insert to collection: c3_l8_53
+2024-04-24 19:14:24,834 - INFO - Completed batch insert to collection:  c3_l8_53
+2024-04-24 19:14:24,879 - INFO - Processing assest 54
+2024-04-24 19:14:27,789 - INFO - Start batch insert to collection: c3_l8_54
+2024-04-24 19:14:51,858 - INFO - Completed batch insert to collection:  c3_l8_54
+2024-04-24 19:14:51,973 - INFO - Processing assest 55
+2024-04-24 19:14:52,062 - INFO - Start batch insert to collection: c3_l8_55
+2024-04-24 19:14:52,062 - INFO - Completed batch insert to collection:  c3_l8_55
+2024-04-24 19:14:52,062 - INFO - Processing assest 56
+2024-04-24 19:14:54,073 - INFO - Start batch insert to collection: c3_l8_56
+2024-04-24 19:15:15,672 - INFO - Completed batch insert to collection:  c3_l8_56
+2024-04-24 19:15:15,748 - INFO - Processing assest 57
+2024-04-24 19:15:19,704 - INFO - Start batch insert to collection: c3_l8_57
+2024-04-24 19:16:07,530 - INFO - Completed batch insert to collection:  c3_l8_57
+2024-04-24 19:16:07,689 - INFO - Processing assest 58
+2024-04-24 19:16:08,782 - INFO - Start batch insert to collection: c3_l8_58
+2024-04-24 19:16:25,174 - INFO - Completed batch insert to collection:  c3_l8_58
+2024-04-24 19:16:25,221 - INFO - Processing assest 59
+2024-04-24 19:16:28,549 - INFO - Start batch insert to collection: c3_l8_59
+2024-04-24 19:17:03,366 - INFO - Completed batch insert to collection:  c3_l8_59
+2024-04-24 19:17:03,487 - INFO - Processing assest 60
+2024-04-24 19:17:08,441 - INFO - Start batch insert to collection: c3_l8_60
+2024-04-24 19:17:45,658 - INFO - Completed batch insert to collection:  c3_l8_60
+2024-04-24 19:17:45,853 - INFO - Processing assest 61
+2024-04-24 19:17:50,461 - INFO - Start batch insert to collection: c3_l8_61
+2024-04-24 19:18:26,730 - INFO - Completed batch insert to collection:  c3_l8_61
+2024-04-24 19:18:26,923 - INFO - Processing assest 62
+2024-04-24 19:18:28,846 - INFO - Start batch insert to collection: c3_l8_62
+2024-04-24 19:18:47,466 - INFO - Completed batch insert to collection:  c3_l8_62
+2024-04-24 19:18:47,559 - INFO - Processing assest 63
+2024-04-24 19:18:51,515 - INFO - Start batch insert to collection: c3_l8_63
+2024-04-24 19:19:38,176 - INFO - Completed batch insert to collection:  c3_l8_63
+2024-04-24 19:19:38,319 - INFO - Processing assest 64
+2024-04-24 19:19:42,679 - INFO - Start batch insert to collection: c3_l8_64
+2024-04-24 19:20:51,476 - INFO - Completed batch insert to collection:  c3_l8_64
+2024-04-24 19:20:51,634 - INFO - Processing assest 65
+2024-04-24 19:20:54,293 - INFO - Start batch insert to collection: c3_l8_65
+2024-04-24 19:21:37,818 - INFO - Completed batch insert to collection:  c3_l8_65
+2024-04-24 19:21:37,912 - INFO - Processing assest 66
+2024-04-24 19:21:39,408 - INFO - Start batch insert to collection: c3_l8_66
+2024-04-24 19:21:54,258 - INFO - Completed batch insert to collection:  c3_l8_66
+2024-04-24 19:21:54,321 - INFO - Processing assest 67
+2024-04-24 19:21:59,160 - INFO - Start batch insert to collection: c3_l8_67
+2024-04-24 19:22:47,580 - INFO - Completed batch insert to collection:  c3_l8_67
+2024-04-24 19:22:47,758 - INFO - Processing assest 68
+2024-04-24 19:22:51,634 - INFO - Start batch insert to collection: c3_l8_68
+2024-04-24 19:23:34,694 - INFO - Completed batch insert to collection:  c3_l8_68
+2024-04-24 19:23:34,856 - INFO - Processing assest 69
+2024-04-24 19:23:37,017 - INFO - Start batch insert to collection: c3_l8_69
+2024-04-24 19:23:57,934 - INFO - Completed batch insert to collection:  c3_l8_69
+2024-04-24 19:23:58,040 - INFO - Processing assest 70
+2024-04-24 19:24:02,911 - INFO - Start batch insert to collection: c3_l8_70
+2024-04-24 19:25:21,940 - INFO - Completed batch insert to collection:  c3_l8_70
+2024-04-24 19:25:22,138 - INFO - Processing assest 71
+2024-04-24 19:25:27,349 - INFO - Start batch insert to collection: c3_l8_71
+2024-04-24 19:26:39,430 - INFO - Completed batch insert to collection:  c3_l8_71
+2024-04-24 19:26:39,646 - INFO - Processing assest 72
+2024-04-24 19:26:48,481 - INFO - Start batch insert to collection: c3_l8_72
+2024-04-24 19:27:54,458 - INFO - Completed batch insert to collection:  c3_l8_72
+2024-04-24 19:27:54,801 - INFO - Processing assest 73
+2024-04-24 19:27:59,440 - INFO - Start batch insert to collection: c3_l8_73
+2024-04-24 19:28:32,248 - INFO - Completed batch insert to collection:  c3_l8_73
+2024-04-24 19:28:32,421 - INFO - Processing assest 74
+2024-04-24 19:28:35,211 - INFO - Start batch insert to collection: c3_l8_74
+2024-04-24 19:29:08,455 - INFO - Completed batch insert to collection:  c3_l8_74
+2024-04-24 19:29:08,552 - INFO - Processing assest 75
+2024-04-24 19:29:15,960 - INFO - Start batch insert to collection: c3_l8_75
+2024-04-24 19:30:15,174 - INFO - Completed batch insert to collection:  c3_l8_75
+2024-04-24 19:30:15,465 - INFO - Processing assest 76
+2024-04-24 19:30:18,490 - INFO - Start batch insert to collection: c3_l8_76
+2024-04-24 19:31:15,589 - INFO - Completed batch insert to collection:  c3_l8_76
+2024-04-24 19:31:15,702 - INFO - Processing assest 77
+2024-04-24 19:31:18,262 - INFO - Start batch insert to collection: c3_l8_77
+2024-04-24 19:31:59,920 - INFO - Completed batch insert to collection:  c3_l8_77
+2024-04-24 19:32:00,012 - INFO - Processing assest 78
+2024-04-24 19:32:01,096 - INFO - Start batch insert to collection: c3_l8_78
+2024-04-24 19:32:18,275 - INFO - Completed batch insert to collection:  c3_l8_78
+2024-04-24 19:32:18,321 - INFO - Processing assest 79
+2024-04-24 19:32:19,834 - INFO - Start batch insert to collection: c3_l8_79
+2024-04-24 19:32:32,613 - INFO - Completed batch insert to collection:  c3_l8_79
+2024-04-24 19:32:32,674 - INFO - Processing assest 80
+2024-04-24 19:32:36,076 - INFO - Start batch insert to collection: c3_l8_80
+2024-04-24 19:32:58,333 - INFO - Completed batch insert to collection:  c3_l8_80
+2024-04-24 19:32:58,459 - INFO - Processing assest 81
+2024-04-24 19:33:11,859 - INFO - Start batch insert to collection: c3_l8_81
+2024-04-24 19:34:51,515 - INFO - Completed batch insert to collection:  c3_l8_81
+2024-04-24 19:34:52,093 - INFO - Processing assest 82
+2024-04-24 19:35:26,329 - INFO - Start batch insert to collection: c3_l8_82
+2024-04-24 19:40:37,290 - INFO - Completed batch insert to collection:  c3_l8_82
+2024-04-24 19:40:39,064 - INFO - Processing assest 83
+2024-04-24 19:40:42,100 - INFO - Start batch insert to collection: c3_l8_83
+2024-04-24 19:41:13,994 - INFO - Completed batch insert to collection:  c3_l8_83
+2024-04-24 19:41:14,145 - INFO - Processing assest 84
+2024-04-24 19:41:14,943 - INFO - Start batch insert to collection: c3_l8_84
+2024-04-24 19:41:50,362 - INFO - Completed batch insert to collection:  c3_l8_84
+2024-04-24 19:41:50,401 - INFO - Processing assest 85
+2024-04-24 19:41:59,533 - INFO - Start batch insert to collection: c3_l8_85
+2024-04-24 19:44:12,716 - INFO - Completed batch insert to collection:  c3_l8_85
+2024-04-24 19:44:13,157 - INFO - Processing assest 86
+2024-04-24 19:44:22,823 - INFO - Start batch insert to collection: c3_l8_86
+2024-04-24 19:46:09,113 - INFO - Completed batch insert to collection:  c3_l8_86
+2024-04-24 19:46:09,495 - INFO - Processing assest 87
+2024-04-24 19:46:22,291 - INFO - Start batch insert to collection: c3_l8_87
+2024-04-24 19:48:30,557 - INFO - Completed batch insert to collection:  c3_l8_87
+2024-04-24 19:48:31,072 - INFO - Processing assest 88
+2024-04-24 19:48:41,745 - INFO - Start batch insert to collection: c3_l8_88
+2024-04-24 19:50:22,954 - INFO - Completed batch insert to collection:  c3_l8_88
+2024-04-24 19:50:23,406 - INFO - Processing assest 89
+2024-04-24 19:50:33,435 - INFO - Start batch insert to collection: c3_l8_89
+2024-04-24 19:51:38,990 - INFO - Completed batch insert to collection:  c3_l8_89
+2024-04-24 19:51:39,436 - INFO - Processing assest 90
+2024-04-24 19:51:44,491 - INFO - Start batch insert to collection: c3_l8_90
+2024-04-24 19:52:46,484 - INFO - Completed batch insert to collection:  c3_l8_90
+2024-04-24 19:52:46,736 - INFO - Processing assest 91
+2024-04-24 19:52:52,832 - INFO - Start batch insert to collection: c3_l8_91
+2024-04-24 19:54:12,298 - INFO - Completed batch insert to collection:  c3_l8_91
+2024-04-24 19:54:12,555 - INFO - Processing assest 92
+2024-04-24 19:54:21,523 - INFO - Start batch insert to collection: c3_l8_92
+2024-04-24 19:55:20,617 - INFO - Completed batch insert to collection:  c3_l8_92
+2024-04-24 19:55:20,997 - INFO - Processing assest 93
+2024-04-24 19:55:27,367 - INFO - Start batch insert to collection: c3_l8_93
+2024-04-24 19:56:53,085 - INFO - Completed batch insert to collection:  c3_l8_93
+2024-04-24 19:56:53,387 - INFO - Processing assest 94
+2024-04-24 19:57:00,285 - INFO - Start batch insert to collection: c3_l8_94
+2024-04-24 19:59:05,384 - INFO - Completed batch insert to collection:  c3_l8_94
+2024-04-24 19:59:05,713 - INFO - Processing assest 95
+2024-04-24 19:59:11,809 - INFO - Start batch insert to collection: c3_l8_95
+2024-04-24 20:00:34,485 - INFO - Completed batch insert to collection:  c3_l8_95
+2024-04-24 20:00:34,754 - INFO - Processing assest 96
+2024-04-24 20:00:47,754 - INFO - Start batch insert to collection: c3_l8_96
+2024-04-24 20:03:14,873 - INFO - Completed batch insert to collection:  c3_l8_96
+2024-04-24 20:03:15,403 - INFO - Processing assest 97
+2024-04-24 20:03:31,692 - INFO - Start batch insert to collection: c3_l8_97
+2024-04-24 20:05:45,983 - INFO - Completed batch insert to collection:  c3_l8_97
+2024-04-24 20:05:46,799 - INFO - Processing assest 98
+2024-04-24 20:05:53,772 - INFO - Start batch insert to collection: c3_l8_98
+2024-04-24 20:07:12,887 - INFO - Completed batch insert to collection:  c3_l8_98
+2024-04-24 20:07:13,207 - INFO - Processing assest 99
+2024-04-24 20:07:30,624 - INFO - Start batch insert to collection: c3_l8_99
+2024-04-24 20:11:26,343 - INFO - Completed batch insert to collection:  c3_l8_99
+2024-04-24 20:11:27,092 - INFO - Processing assest 100
+2024-04-24 20:11:50,832 - INFO - Start batch insert to collection: c3_l8_100
+2024-04-24 20:15:16,686 - INFO - Completed batch insert to collection:  c3_l8_100
+2024-04-24 20:15:17,705 - INFO - Processing assest 101
+2024-04-24 20:15:33,904 - INFO - Start batch insert to collection: c3_l8_101
+2024-04-24 20:18:00,481 - INFO - Completed batch insert to collection:  c3_l8_101
+2024-04-24 20:18:01,317 - INFO - Processing assest 102
+2024-04-24 20:18:11,447 - INFO - Start batch insert to collection: c3_l8_102
+2024-04-24 20:19:34,324 - INFO - Completed batch insert to collection:  c3_l8_102
+2024-04-24 20:19:34,712 - INFO - Processing assest 103
+2024-04-24 20:19:41,696 - INFO - Start batch insert to collection: c3_l8_103
+2024-04-24 20:20:42,892 - INFO - Completed batch insert to collection:  c3_l8_103
+2024-04-24 20:20:43,165 - INFO - Processing assest 104
+2024-04-24 20:20:48,853 - INFO - Start batch insert to collection: c3_l8_104
+2024-04-24 20:22:30,956 - INFO - Completed batch insert to collection:  c3_l8_104
+2024-04-24 20:22:31,206 - INFO - Processing assest 105
+2024-04-24 20:22:42,609 - INFO - Start batch insert to collection: c3_l8_105
+2024-04-24 20:24:31,520 - INFO - Completed batch insert to collection:  c3_l8_105
+2024-04-24 20:24:32,000 - INFO - Processing assest 106
+2024-04-24 20:24:38,274 - INFO - Start batch insert to collection: c3_l8_106
+2024-04-24 20:25:59,208 - INFO - Completed batch insert to collection:  c3_l8_106
+2024-04-28 14:59:39,084 - INFO - Processing assest 20
+2024-04-28 14:59:46,800 - INFO - Start batch insert to collection: c3_l8_20
+2024-04-28 15:00:00,060 - INFO - Completed batch insert to collection:  c3_l8_20
+2024-04-28 15:00:00,098 - INFO - Processing assest 46
+2024-04-28 15:03:17,465 - INFO - Start batch insert to collection: c3_l8_46
+2024-04-28 15:03:56,827 - INFO - Completed batch insert to collection:  c3_l8_46
+2024-04-28 15:03:57,009 - INFO - Processing assest 49
+2024-04-28 15:04:47,928 - INFO - Start batch insert to collection: c3_l8_49
+2024-04-28 15:05:25,964 - INFO - Completed batch insert to collection:  c3_l8_49
+2024-04-28 15:05:26,238 - INFO - Processing assest 55
+2024-04-28 15:05:54,876 - INFO - Start batch insert to collection: c3_l8_55
+2024-04-28 15:06:20,821 - INFO - Completed batch insert to collection:  c3_l8_55
