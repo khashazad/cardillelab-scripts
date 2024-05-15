@@ -18,7 +18,7 @@ BUFFER = 60
 # )
 OUTPUT_FILE_PATH = os.path.abspath("/Volumes/Files/Lansat8-Fishnet1.csv")
 
-COLLECTION_REGEX = re.compile(r"^c2_l8_\d{1,3}$")
+COLLECTION_REGEX = re.compile(r"^c2_l8_\d{1,4}$")
 # COLLECTION_REGEX = re.compile(r"^c2_l8_14$")
 
 HEADERS = [

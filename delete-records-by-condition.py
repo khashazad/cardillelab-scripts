@@ -2,7 +2,7 @@ import re
 from Mongo.MongoAdapter import MongoDriver
 from Services.Logger import Logger
 
-COLLECTION_REGEX = re.compile(r"^c2_l8_\d{1,3}$")
+COLLECTION_REGEX = re.compile(r"^c2_l8_\d{1,4}$")
 
 
 filter = {"image.year": {"$gte": 2021}}
