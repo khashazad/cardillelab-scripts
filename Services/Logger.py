@@ -9,7 +9,8 @@ class Logger:
         self.infoLogger = logging.getLogger("info_logger")
         self.infoLogger.setLevel(logging.INFO)
 
-        info_file_handler = logging.FileHandler(filename)
+        info_file_handler = logging.FileHandler(f"Logs/{filename}")
+
         info_file_handler.setLevel(logging.INFO)
 
         if format is True:
@@ -23,7 +24,7 @@ class Logger:
         self.errorLogger = logging.getLogger("error_logger")
         self.errorLogger.setLevel(logging.ERROR)
 
-        error_file_handler = logging.FileHandler(filename)
+        error_file_handler = logging.FileHandler(f"Logs/{filename}")
         error_file_handler.setLevel(logging.ERROR)
 
         if format is True:
