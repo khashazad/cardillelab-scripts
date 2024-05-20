@@ -11,7 +11,7 @@ logger = Logger(
 
 mongo = MongoDriver(logger)
 
-missing_lakes_data_folder = os.path.abspath("E:/missing-lakes/2")
+missing_lakes_data_folder = os.path.abspath("E:/missing-lakes/4")
 
 
 def extract_info_from_file_name(file_name):

@@ -6,17 +6,17 @@ import sys
 class MongoDriver:
     def __init__(self, logger=None):
         try:
-            # self.client = MongoClient(
-            #     host="206.12.90.121",
-            #     port=27017,
-            #     username="root",
-            #     password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
-            # )
-            #
             self.client = MongoClient(
-                host="127.0.0.1",
+                host="206.12.90.121",
                 port=27017,
+                username="root",
+                password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
             )
+            
+            # self.client = MongoClient(
+            #     host="127.0.0.1",
+            #     port=27017,
+            # )
 
             self.db = self.client["Lakes"]
             print("Connected to MongoDB")
