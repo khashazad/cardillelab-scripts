@@ -1,4 +1,3 @@
-from abc import abstractclassmethod
 from Services.Logger import Logger
 from Mongo.MongoAdapterV2 import MongoDriver
 import os
