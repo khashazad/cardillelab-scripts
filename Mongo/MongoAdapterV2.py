@@ -6,11 +6,16 @@ import sys
 class MongoDriver:
     def __init__(self, logger=None):
         try:
+            # self.client = MongoClient(
+            #     host="206.12.90.121",
+            #     port=27017,
+            #     username="root",
+            #     password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
+            # )
+            #
             self.client = MongoClient(
-                host="206.12.90.121",
+                host="127.0.0.1",
                 port=27017,
-                username="root",
-                password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
             )
 
             self.db = self.client["Lakes"]
@@ -52,7 +57,9 @@ class MongoDriver:
             collection = self.db[collection_name]
             try:
                 insert_result = collection.insert_one(document)
-                return insert_result.inserted_id
+                self.log_info(
+                    f"Inserted {len(insert_result.inserted_id)} records from collection {collection_name}"
+                )
             except TypeError as e:
                 self.log_error(
                     f"TypeError occured when inserting document to collection {collection_name}: {e}"
@@ -71,7 +78,10 @@ class MongoDriver:
             collection = self.db[collection_name]
             if collection is not None:
                 try:
-                    collection.insert_many(documents)
+                    insert_result = collection.insert_many(documents)
+                    self.log_info(
+                        f"Inserted {len(insert_result.inserted_ids)} records to collection {collection_name}"
+                    )
                 except TypeError as e:
                     self.log_error(
                         f"TypeError occured when inserting documents to collection {collection_name}: {e}"
@@ -86,7 +96,10 @@ class MongoDriver:
             collection = self.db[collection_name]
             if collection is not None:
                 try:
-                    collection.insert_many(documents)
+                    insert_result = collection.insert_many(documents)
+                    self.log_info(
+                        f"Inserted {len(insert_result.inserted_ids)} records to collection {collection_name}"
+                    )
                 except TypeError as e:
                     self.log_error(
                         f"TypeError occured when inserting documents to collection {collection_name}: {e}"
@@ -116,7 +129,10 @@ class MongoDriver:
 
     def remove(self, collection_name, filter):
         if self.db is not None:
-            self.db[collection_name].delete_many(filter)
+            d = self.db[collection_name].delete_many(filter)
+            self.log_info(
+                f"Deleted {d.deleted_count} from collection {collection_name}"
+            )
 
     def log_info(self, message):
         if self.logger is not None:
