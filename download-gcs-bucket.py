@@ -31,8 +31,8 @@ def download_all_files(bucket_name, destination_folder):
 
 
 # Usage
-bucket_name = "missing-lakes-data-2"
-destination_folder = "/Volumes/Files/Lakes data/missing-lakes/2"
+bucket_name = "missing-lakes-data-3"
+destination_folder = "E:/missing-lakes/3"
 
 if __name__ == "__main__":
     download_all_files(bucket_name, destination_folder)

@@ -38,4 +38,5 @@ if __name__ == "__main__":
         logger.log_info(headers)
 
         for row in csv_reader:
+            print(row)
             count_available_lakes_data(row[0], row[1], row[2])

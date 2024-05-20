@@ -9,11 +9,9 @@ logger = Logger(
     "insert-missing-lakes-info.log", "insert-missing-lakes-errors.log", False
 )
 
-logger_no_data = Logger("lakes_with_no_data.log", "lakes_with_no_data.log", False)
-
 mongo = MongoDriver(logger)
 
-missing_lakes_data_folder = os.path.abspath("/Volumes/Files/Lakes data/missing-lakes/1")
+missing_lakes_data_folder = os.path.abspath("E:/missing-lakes/2")
 
 
 def extract_info_from_file_name(file_name):
