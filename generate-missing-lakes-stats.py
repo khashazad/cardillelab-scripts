@@ -61,3 +61,7 @@ if __name__ == "__main__":
                 fish_id = asset[1]
 
                 check_data_existence_for_fish_id(fish_id, fish_id, report_writer)
+
+                print(f"Fishnet {fishnet} Fish Id {fish_id} stats retrieved")
+
+        print("Finished")
