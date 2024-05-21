@@ -1,7 +1,7 @@
 import os
 import csv
 from Mongo.MongoAdapterV2 import MongoDriver
-import pymongo
+from pymongo.errors import OperationFailure
 
 lakes_inventory_path = os.path.abspath("./Assets/inventory.csv")
 
@@ -20,14 +20,14 @@ def check_data_existence_for_lake(lake, report_writer):
     try:
         mongo.db.validate_collection(collection)
 
-        lake_data_size = (
-            mongo.db[collection].find({"hylak_id": {"eq": hylak_id}}).size()
+        lake_data_size = len(
+            list(mongo.db[collection].find({"hylak_id": {"eq": hylak_id}}))
         )
 
         if lake_data_size == 0:
             report_writer.writerow([fishnet, fish_id, hylak_id])
 
-    except pymongo.errors.OperationFailure:
+    except OperationFailure:
         report_writer.writerow([fishnet, fish_id, hylak_id])
 
 

@@ -29,7 +29,7 @@ def get_all_exports(bucket_name):
 
 # Usage
 
-part = 3
+part = 10
 
 bucket_name = f"missing-lakes-data-{part}"
 # bucket_name = "missing-lakes-data"
