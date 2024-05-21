@@ -10,7 +10,6 @@ import re
 counter = Counter()
 logger = Logger("export_info.log", "export_error.log")
 
-COLLECTION = Collections.Collection2
 CLOUD_THRESHOLD = 50.0
 BUFFER = 60
 # OUTPUT_FILE_PATH = os.path.join(
@@ -18,8 +17,7 @@ BUFFER = 60
 # )
 OUTPUT_FILE_PATH = os.path.abspath("/Volumes/Files/Lansat8-Fishnet1.csv")
 
-COLLECTION_REGEX = re.compile(r"^c2_l8_\d{1,4}$")
-# COLLECTION_REGEX = re.compile(r"^c2_l8_14$")
+COLLECTION_REGEX = re.compile(r"^c(1|2|3)_l8_\d{1,4}$")
 
 HEADERS = [
     "hylak_id",
@@ -39,16 +37,6 @@ HEADERS = [
     "qa_radsat_{}".format(BUFFER),
     "sr_qa_aerosol_{}".format(BUFFER),
 ]
-
-
-def get_collection_id():
-    if COLLECTION == Collections.Collection1:
-        return "1"
-    if COLLECTION == Collections.Collection2:
-        return "2"
-    if COLLECTION == Collections.Collection2:
-        return "3"
-    return ""
 
 
 def format_observation(obs):
@@ -79,15 +67,16 @@ def write_rows_to_output_file(rows):
 
 
 def export_collection_observations(collection_name):
-    asset_id = collection_name.split("_")[2]
+    fishnet = collection_name.split("_")[0][1]
+    fish_id = collection_name.split("_")[2]
     pipeline = [
         {"$match": {"image.cloud_cover": {"$lt": CLOUD_THRESHOLD}}},
         {
             "$project": {
                 "_id": 0,
                 "hylak_id": 1,
-                "fishnet": get_collection_id(),
-                "fish_id": asset_id,
+                "fishnet": fishnet,
+                "fish_id": fish_id,
                 "image_sat": "Landsat8",
                 "image_id": "$image.id",
                 "image_date": "$image.date",
