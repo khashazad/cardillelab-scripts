@@ -22,22 +22,20 @@ def check_data_existence_for_fish_id(fishnet, fish_id, report_writer):
         try:
             mongo.db.validate_collection(collection)
 
-            records = list(mongo.db[collection].find({}))
+            records = list(mongo.db[collection].find({}).distinct("hylak_id"))
 
             for lake in lakes:
-                hylak_id = lake[2]
+                hylak_id = lake[0]
 
                 if hylak_id not in [None, ""]:
-                    data_available = True in (
-                        data["hylak_id"] == int(lake[2]) for data in records
-                    )
+                    
 
-                    if not data_available:
+                    if hylak_id not in records:
                         report_writer.writerow([fishnet, fish_id, hylak_id])
 
         except OperationFailure:
             for lake in lakes:
-                hylak_id = lake[2]
+                hylak_id = lake[0]
 
                 if hylak_id not in [None, ""]:
                     report_writer.writerow([fishnet, fish_id, hylak_id])
@@ -60,7 +58,7 @@ if __name__ == "__main__":
                 fishnet = asset[0]
                 fish_id = asset[1]
 
-                check_data_existence_for_fish_id(fish_id, fish_id, report_writer)
+                check_data_existence_for_fish_id(fishnet, fish_id, report_writer)
 
                 print(f"Fishnet {fishnet} Fish Id {fish_id} stats retrieved")
 

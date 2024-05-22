@@ -20,6 +20,8 @@ class MongoDriver:
                 self.client = MongoClient(
                     host="127.0.0.1",
                     port=27017,
+                    username="root",
+                    password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
                 )
                 print("Local database...")
 
