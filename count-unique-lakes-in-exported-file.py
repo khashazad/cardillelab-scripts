@@ -1,17 +1,31 @@
+from posix import listdir
 import pandas as pd
 import os
 
-data = []
-file_path = os.path.abspath("E:/landsat8-50cc.csv")
+EXPORT_FILES_DIRECTORY = os.path.abspath("E:/landsat8-exports")
 
-df = pd.read_csv(file_path)
-data.extend(df["hylak_id"].tolist())
 
-# Fetch unique values with Set
-data_unique = list(set(data))
+def count_unique_lakes_in_export_file(file_path):
+    data = []
 
-print(f"{len(data_unique)} lakes")
-# data_unique_string = map(str, data_unique)
-# new_list = open("outputfile.csv", "w")
-# new_list.write("\n".join(data_unique_string))
-# new_list.close()
+    df = pd.read_csv(file_path)
+    data.extend(df["hylak_id"].tolist())
+
+    return len(list(set(data)))
+
+
+if __name__ == "__main__":
+    files = os.listdir(EXPORT_FILES_DIRECTORY)
+
+    count = 0
+
+    for file in files:
+        file_path = os.path.join(EXPORT_FILES_DIRECTORY, file)
+
+        lakes_in_export_file = count_unique_lakes_in_export_file(file_path)
+
+        count += lakes_in_export_file
+
+        print(f"{lakes_in_export_file} in {file}")
+
+    print(f"Total lakes {count}")
