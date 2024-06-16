@@ -20,8 +20,10 @@ class MongoDriver:
                 self.client = MongoClient(
                     host="127.0.0.1",
                     port=27017,
-                    username="root",
-                    password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
+                    # username="root",
+                    # password="ORJ0Gcqo9cu0iG8Py6B2IYdZFBCyl7tQx4Iazr/VC6sYhrZIuXbvSkbM4J6Th0QO",
+                    username="lakesadmin",
+                    password="lakeharvest2021",
                 )
                 print("Local database...")
 
@@ -89,12 +91,16 @@ class MongoDriver:
                     self.log_info(
                         f"Inserted {len(insert_result.inserted_ids)} records to collection {collection_name}"
                     )
+
+                    return len(insert_result.inserted_ids)
                 except TypeError as e:
                     self.log_error(
                         f"TypeError occured when inserting documents to collection {collection_name}: {e}"
                     )
 
             self.log_info("Completed batch insert to collection:  " + collection_name)
+
+        return 0
 
     def insert_many_append(self, collection_name, documents):
         if self.db is not None:
@@ -111,6 +117,11 @@ class MongoDriver:
                     self.log_error(
                         f"TypeError occured when inserting documents to collection {collection_name}: {e}"
                     )
+
+    def partial_update_one(self, collection_name, filter, values):
+        if self.db is not None:
+            collection = self.db[collection_name]
+            collection.update_one(filter, {"$set": values})
 
     def find(self, collection_name, filter):
         if self.db is not None:
