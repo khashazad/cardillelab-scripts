@@ -9,6 +9,15 @@ def get_record_parser(dataset):
         return Landsat8ParsingStrategy()
 
 
+def get_collection_from_fishnet(fishnet):
+    if str(fishnet) == "1":
+        return Collections.Collection1
+    elif str(fishnet) == "2":
+        return Collections.Collection2
+    else:
+        return Collections.Collection3
+
+
 def get_collection_id(collection):
     if collection == Collections.Collection1:
         return "1"
@@ -36,7 +45,7 @@ def get_assets_folder_dataset_prefix(dataset):
 
 
 def get_assets_folder_path(collection, dataset):
-    return "{} - Fishnet{}".format(
+    return "{}/Fishnet {}".format(
         get_assets_folder_dataset_prefix(dataset), get_collection_id(collection)
     )
 

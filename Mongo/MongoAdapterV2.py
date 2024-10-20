@@ -27,7 +27,7 @@ class MongoDriver:
                 )
                 print("Local database...")
 
-            self.db = self.client["Lakes"]
+            self.db = self.client["lakes"]
             print("Connected to MongoDB")
         except (ConnectionFailure, ServerSelectionTimeoutError) as e:
             print(f"Connection failed: {e}")
