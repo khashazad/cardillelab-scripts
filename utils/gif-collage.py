@@ -1,10 +1,10 @@
-import sys
 import pandas as pd
 from PIL import Image, ImageSequence, ImageDraw, ImageFont
 from moviepy.editor import (
     ImageSequenceClip,
-)  # Import necessary for creating video files
-import numpy as np  # Import numpy for array manipulations
+    VideoFileClip,
+)
+import numpy as np
 
 
 def trim_gif(path, start_frame, end_frame):
@@ -13,7 +13,7 @@ def trim_gif(path, start_frame, end_frame):
     return frames[start_frame : end_frame + 1]
 
 
-def create_collage(gifs, gif_names, width, height):
+def create_collage(gifs, gif_names, width, height, output_path):
     collage_frames = []
     num_frames = min(
         len(gif) for gif in gifs
@@ -49,7 +49,7 @@ def create_collage(gifs, gif_names, width, height):
         collage_frames.append(np.array(collage.convert("RGB")))
 
     video_clip = ImageSequenceClip(collage_frames, fps=10)
-    video_clip.write_videofile(f"{folder_path}/collage.mp4", codec="libx264")
+    video_clip.write_videofile(output_path, codec="libx264")
 
 
 def main(folder_path):
@@ -65,7 +65,16 @@ def main(folder_path):
     if len(gifs) == 4:
         first_gif = Image.open(f"{folder_path}/{config.iloc[0]['Path']}")
         width, height = first_gif.size
-        create_collage(gifs, gif_names, width + 20, height + 50)
+        width += 20
+        height += 50
+
+        output_path = folder_path + "/collage.mp4"
+
+        create_collage(gifs, gif_names, width, height, output_path)
+
+        output_gif_path = folder_path + "/collage.gif"
+        clip = VideoFileClip(output_path)
+        clip.write_gif(output_gif_path, fps=5)
 
 
 if __name__ == "__main__":
