@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from PIL import Image, ImageSequence, ImageDraw, ImageFont
 from moviepy.editor import (
@@ -6,11 +7,15 @@ from moviepy.editor import (
 )
 import numpy as np
 
+fps = 3
+
 
 def trim_gif(path, start_frame, end_frame):
     gif = Image.open(path)
     frames = [frame.copy() for frame in ImageSequence.Iterator(gif)]
-    return frames[start_frame : end_frame + 1]
+    if start_frame and end_frame:
+        return frames[start_frame : end_frame + 1]
+    return frames
 
 
 def create_collage(gifs, gif_names, width, height, output_path):
@@ -21,7 +26,10 @@ def create_collage(gifs, gif_names, width, height, output_path):
 
     for frame_index in range(num_frames):
         collage = Image.new(
-            "RGBA", (width * 2 + 10, height * 2 + 50), (255, 255, 255, 255)
+            # "RGBA", (width * 2 + 10, height * 2 + 50), (255, 255, 255, 255)
+            "RGB",
+            (width * 2 + 10, height * 2 + 50),
+            (27, 33, 44),
         )
         positions = [
             (10, 0),
@@ -44,11 +52,13 @@ def create_collage(gifs, gif_names, width, height, output_path):
                 centered_pos[0] + (gif_width - text_width) // 2,
                 centered_pos[1] - text_height - 5,
             )
-            draw.text(text_position, name, font=font, fill=(0, 0, 0))
+            draw.text(text_position, name, font=font, fill=(255, 255, 255))
 
         collage_frames.append(np.array(collage.convert("RGB")))
 
-    video_clip = ImageSequenceClip(collage_frames, fps=10)
+    video_clip = ImageSequenceClip(collage_frames, fps=fps)
+    if os.path.exists(output_path):
+        os.remove(output_path)
     video_clip.write_videofile(output_path, codec="libx264")
 
 
@@ -58,7 +68,9 @@ def main(folder_path):
     gifs = []
     gif_names = []
     for _, row in config.iterrows():
-        frames = trim_gif(f"{folder_path}/{row['Path']}", row["Start"], row["End"])
+        start_frame = row["Start"] if "Start" in row else None
+        end_frame = row["End"] if "End" in row else None
+        frames = trim_gif(f"{folder_path}/{row['Path']}", start_frame, end_frame)
         gifs.append(frames)  # Append the entire list of frames
         gif_names.append(row["Name"])
 
@@ -74,10 +86,15 @@ def main(folder_path):
 
         output_gif_path = folder_path + "/collage.gif"
         clip = VideoFileClip(output_path)
-        clip.write_gif(output_gif_path, fps=5)
+        clip.write_gif(output_gif_path, fps=fps)
 
 
 if __name__ == "__main__":
     # folder_path = sys.argv[1]
-    folder_path = "/Users/khxsh/Downloads/gifs"
-    main(folder_path)
+    root_path = "/Users/khxsh/Desktop/gifs/point 1"
+
+    for folder_path in os.listdir(root_path):
+        subfolder_path = os.path.join(root_path, folder_path)
+        if os.path.isdir(subfolder_path):
+            print(subfolder_path)
+            main(subfolder_path)
