@@ -39,7 +39,7 @@ def create_collage(gifs, gif_names, width, height, output_path):
         ]
 
         for gif, name, pos in zip(gifs, gif_names, positions):
-            frame = gif[frame_index]  # Directly access the frame from the list
+            frame = gif[frame_index]
             gif_width, gif_height = frame.size
             centered_pos = (pos[0], pos[1] + (height - gif_height) // 2)
             collage.paste(frame, centered_pos)
@@ -71,7 +71,7 @@ def main(folder_path):
         start_frame = row["Start"] if "Start" in row else None
         end_frame = row["End"] if "End" in row else None
         frames = trim_gif(f"{folder_path}/{row['Path']}", start_frame, end_frame)
-        gifs.append(frames)  # Append the entire list of frames
+        gifs.append(frames)
         gif_names.append(row["Name"])
 
     if len(gifs) == 4:
@@ -91,10 +91,11 @@ def main(folder_path):
 
 if __name__ == "__main__":
     # folder_path = sys.argv[1]
-    root_path = "/Users/khxsh/Desktop/gifs/point 1"
+    root_path = "/Users/khxsh/Desktop/gifs-v2/point 4"
 
     for folder_path in os.listdir(root_path):
         subfolder_path = os.path.join(root_path, folder_path)
+        print(subfolder_path)
         if os.path.isdir(subfolder_path):
             print(subfolder_path)
             main(subfolder_path)
